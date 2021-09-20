@@ -1,11 +1,5 @@
-function entrar(){
-   setTimeout(()=>{
-        window.location.href = 'https://cdpn.io/Giugiu1/debug/qBjxGKP/LQMExgDygwZk'
-    }, 3000)
-}
-
-function cadastrar(){
+function sair(){
   setTimeout(()=>{
-        window.location.href = 'https://cdpn.io/Giugiu1/debug/powamZJ/mVAbGwxDDPmk'
+        window.location.href = 'https://cdpn.io/Giugiu1/debug/rNwdJxB/yYMyLaxJapYk'
     }, 3000)
 }
