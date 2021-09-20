@@ -58,20 +58,3 @@ button{
   left: 10px;
   font-size: 20px;
 }
-.cadastrar-botao {
-  background-color: transparent;
-  border-color: #ffffff;
-  color: #ffffff;
-  padding: 7px;
-  font-weight: bold;
-  font-size: 12pt;
-  margin-top: 20px;
-  border-radius: 4px;
-  cursor: pointer;
-  outline: none;
-  transition: all .4s ease-out;    
-  position: absolute;
-   top: 0px;
-  left: 100px;
-  font-size: 20px;
-}
