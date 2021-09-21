@@ -1,33 +1,40 @@
-<button onclick='sair()'>Sair</button>
-<h1 class="page-title">
-    Giugiufilmes
-<p> Dicas de filmes para você assistir sozinho e com sua familia.</p>
-<p class="pixar"> Filmes da Pixar: </p>
-<img class="banner" src= "https://i.postimg.cc/zfbYNx4m/banner2.jpg" alt="lucca">
-<p> <a href='https://pt.wikipedia.org/wiki/Luca_(2021)'>  luca </a>
-    </p>
-<img class="banner" src="https://i.postimg.cc/ZRK2wVZv/banner1.jpg" alt="Carros"> 
-<p> <a href='https://pt.wikipedia.org/wiki/Carros_3'>  Carros 3 </a>
-    </p>
-<p class="pixar"> Filmes da Marvel: </p>
-<img class="banner" src="https://i.postimg.cc/3rv8HxmS/longe-de-casa.jpg" alt="Homem aranha:longe de casa">
-<p> <a href='https://pt.wikipedia.org/wiki/Homem-Aranha:_Longe_de_Casa'>  Homem aranha:longe de casa </a>
-    </p>
-<img class="banner" src="https://i.postimg.cc/bYDJNTcR/avenger.jpgg" alt="Avengers">
-<p> <a href='https://pt.wikipedia.org/wiki/Avengers:_Infinity_War'>  Avengers: infinity war </a>
-    </p>
-<p class="pixar"> Filmes da DC: </p>
-<img class="banner" src="https://i.postimg.cc/9MJN4WCK/transferir.jpg" alt="batman">
-<p> <a href='https://pt.wikipedia.org/wiki/The_Batman_(filme)'>  The Batman </a>
-    </p>
-<p class="pixar"> Filmes da 20th Century Studios: </p>
-<img class="banner" src="https://i.postimg.cc/QCcY7qfz/Filme-Logan-2017.jpg" alt="logan">
-<p> <a href='https://pt.wikipedia.org/wiki/Logan_(filme)'>  Logan </a>
-    </p>
-<img class="banner" src="https://i.postimg.cc/CKHjbQ0k/images-5.jpg" alt="">
-<p> <a href='https://pt.wikipedia.org/wiki/Alien:_Covenant'> Alien: Covenant </a>
-    </p>
-<p class="giugiu-logo"> Giugiu </p>
+<link href="https://giusande.github.io/Giusande/style.css" rel="stylesheet"/> 
+<script src="https://giusande.github.io/Giusande/scripts.js"></script>
+<head>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">  
+</head>
+
+<body>
+
+<div class='container'>
+  <div class='card'>
+    <h1> Entrar </h1>
     
-<link href="https://giusande.github.io/Giusande/style.css" rel="stylesheet" />
-<script scr="https://giusande.github.io/Giusande/scripts.js"></script>
+    <div id='msgError'></div>
+    
+    <div class='label-float'>
+      <input type='text' id='usuario' paceholder='' required>
+      <label id='userLabel' for='usuario'>Usuario</label>
+    </div>
+    
+    <div class='label-float'>
+      <input type='password' id='senha' paceholder='' required>
+      <label id='senhaLabel' for='senha'>Senha</label>
+      <i class="fa fa-eye" aria-hidden="true"></i>
+    </div>
+    
+    <div class='justify-center'>
+       <button onclick='entrar()'>Entrar</button>
+    </div>
+    
+    <div class='justify-center'>
+      <hr>
+    </div>
+    
+    <p> Não tem uma conta?
+     <a href='https://cdpn.io/Giugiu1/debug/powamZJ/mVAbGwxDDPmk'>  Cadastre-se </a>
+    </p>
+    
+  </div>
+  </div>
+</body>
