@@ -42,7 +42,7 @@ function entrar(){
   })
    
   if(usuario.value == userValid.user && senha.value == userValid.senha){
-    window.location.href = 'https://cdpn.io/Giugiu1/debug/VwWygyd/mWMoNzPLzEpk'
+    window.location.href = 'https://giusande.github.io/Giusande/ '
     
     let mathRandom = Math.random().toString(16).substr(2)
     let token = mathRandom + mathRandom
